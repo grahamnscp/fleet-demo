@@ -23,9 +23,9 @@ spec:
             protocol: TCP
           env:
             - name: COW_COLOR
-              value: purple
+              value: green
             - name: CONTAINER_COLOR
-              value: white
+              value: grey
           readinessProbe:
             httpGet:
               port: web
